@@ -1,7 +1,12 @@
 
+/*
+This is a mash up of the following 2 codepens
+Thanks to the authors:
+https://codepen.io/TajShireen/pen/YzZmbep
+https://codepen.io/mohaiman/pen/MQqMyo
+*/
 
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
-
 
   :root {
     --color-1: #186cb8;
@@ -68,11 +73,6 @@
 
 
 
-
-
-
-
-
   *{
       margin: 0px;
       padding: 0px;
@@ -90,14 +90,38 @@
 
   }
 
-  .area{
+
+.bg1 {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+}
+.bg2 {
     background-color: #FF3CAC;
     background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+}
+.bg3 {
+    background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
+}
+.bg4 {
+    background-image: linear-gradient( 111.1deg,  rgba(0,40,70,1) -4.8%, rgba(255,115,115,1) 82.7%, rgba(255,175,123,1) 97.2% );
+}
+.bg5 {
+    background-image: linear-gradient( 109.6deg,  rgba(14,11,56,1) 11.2%, rgba(239,37,37,1) 91.1% );
+}
+.bg6 {
+    background-image: linear-gradient( 109.6deg,  rgba(9,9,121,1) 11.2%, rgba(144,6,161,1) 53.7%, rgba(0,212,255,1) 100.2% );
+}
+.bg7 {
+    background-image: linear-gradient( 135deg, #FD6585 10%, #0D25B9 100%);
+}
+.bg8 {
+    background-image: linear-gradient( 113.3deg,  rgba(217,9,27,1) 6.9%, rgba(22,68,150,1) 75% );
+}
 
+
+
+  .area{
       width: 100%;
       height:100vh;
-
-
   }
 
   .circles{

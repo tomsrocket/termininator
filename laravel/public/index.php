@@ -23,7 +23,7 @@
     </div>
 
 
-    <div class="area" >
+    <div class="area bg<?= rand(1,8) ?>" >
         <ul class="circles">
             <li></li>
             <li></li>
