@@ -43,6 +43,9 @@
     <div class="wrapper">
         <div class="container">
           Hier wird bald so ne Terminseite entstehen, vielleicht.
+
+          <br />
+          <center><img src="images/logo/termininator.jpg" width="300" /></center>
         </div>
     </div>
 
