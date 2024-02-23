@@ -12,10 +12,10 @@
 
                 <div class="p-5 mb-4 bg-body-tertiary rounded-3">
                     <div class="container-fluid py-5">
-                        <h1 class="display-5 fw-bold">Laravel/Vite Bootstrap 5 Example</h1>
-                        <p class="col-md-8 fs-4">This simple jumbotron example is based on one of the official Bootstrap 5 examples.</p>
-                        <a class="btn btn-primary btn-lg" href="https://getbootstrap.com/docs/5.3/examples/jumbotron/">
-                            View on getbootstrap.com
+                        <h1 class="display-5 fw-bold">Termininator</h1>
+                        <p class="col-md-8 fs-4">Eliminiert alle Terminfindungsprobleme.</p>
+                        <a class="btn btn-primary btn-lg" href="{{ url('/events') }}">
+                            Auf zur Wochenend-Übersicht
                         </a>
                     </div>
                 </div>
