@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\EventsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/events', [EventsController::class, 'list']);
+
+# so gehts auch, aber dann hat man nur die view ohne controller..
+Route::get('/test', function () {
+    return view('pages.events');
+});
+
