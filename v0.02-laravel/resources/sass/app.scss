@@ -25,6 +25,40 @@
     text-fill-color: transparent;
 }
 
+.month-hl {
+    text-transform: uppercase;
+    font-family: "Terminator", sans-serif;
+    text-shadow: black 2px 2px;
+}
+
+// Month's colors
+$color1: #879bfe;
+$color2: #6dc0b8;
+$color3: #93d49e;
+$color4: #e0e690;
+$color5: #fee893;
+$color6: #ffdd79;
+$color7: #ffca86;
+$color8: #fea48c;
+$color9: #fe9494;
+$color10: #f088ad;
+$color11: #c99ace;
+$color12: #9da5d3;
+
+.bg-color1 { background-color:$color1; }
+.bg-color2 { background-color:$color2; }
+.bg-color3 { background-color:$color3; }
+.bg-color4 { background-color:$color4; }
+.bg-color5 { background-color:$color5; }
+.bg-color6 { background-color:$color6; }
+.bg-color7 { background-color:$color7; }
+.bg-color8 { background-color:$color8; }
+.bg-color9 { background-color:$color9; }
+.bg-color10 { background-color:$color10; }
+.bg-color11 { background-color:$color11; }
+.bg-color12 { background-color:$color12; }
+
+
 // Fonts
 //@import url('https://fonts.bunny.net/css?family=Nunito');
 
